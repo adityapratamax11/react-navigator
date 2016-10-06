@@ -26,7 +26,7 @@ class PersonPage extends Component {
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <TouchableOpacity
             onPress={this.gotoNext.bind(this)}>
-          <Text>Klik Saya Untuk Tampil Halaman Oppcaity</Text>
+          <Text>Klik Saya Untuk Tampil Halaman Oppacity</Text>
         </TouchableOpacity>
       </View>
     );
