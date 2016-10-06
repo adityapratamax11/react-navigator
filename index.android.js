@@ -19,17 +19,12 @@ var LoginPage = require('./LoginPage');
 var MainPage = require('./MainPage');
 var PersonPage = require('./PersonPage');
 var NoNavigatorPage = require('./NoNavigatorPage');
-/*import SplashPage from './SplashPage';
-import LoginPage from './LoginPage';
-import MainPage from './MainPage';
-import PersonPage from './PersonPage';
-import NoNavigatorPage from './NoNavigatorPage';*/
-
 
 class belajar1 extends Component {
   render() {
     return (
       <Navigator
+          //halaman yang akan dijalankan pertama adalah SplashPage
           initialRoute={{id: 'SplashPage', name: 'Index'}}
           renderScene={this.renderScene.bind(this)}
           configureScene={(route) => {
