@@ -18,7 +18,7 @@ class SplashPage extends Component {
   render() {
     return (
       <View style={{flex: 1, backgroundColor: '#246dd5', alignItems: 'center', justifyContent: 'center'}}>
-        <Text style={{color: 'white', fontSize: 32,}}>Splash</Text>
+        <Text style={{color: 'white', fontSize: 32,}}>Welcome</Text>
       </View>
     );
   }
